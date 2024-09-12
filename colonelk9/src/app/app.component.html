@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+  <div class="global-page">
+    <div class="top-content">
+      <h1 class="top-header">
+        Colonel K9 Dog Doo Disposal
+      </h1>
+      <div class="image-panel">
+        <img id="k9logo" src="./assets/images/K9-Logo.png">
+      </div>
+      <header class="top-header"><strong>Call Now! 770-727-5716</strong></header>
+      <div class="nav-menu">
+        <ul class="nav-menu">
+          <li>
+            <a routerLink="about" routerLinkActive="'active'">
+              <span>About Colonel K9</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="pricing" routerLinkActive="'active'">
+              <span>Pricing</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="testimonials" routerLinkActive="'active'">
+              <span>Testimonials</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="process" routerLinkActive="'active'">
+              <span>The Scooping Process</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="community" routerLinkActive="'active'">
+              <span>Community Involvement</span>
+            </a>
+          </li>
+          <li>
+            <a routerLink="veteran-assistance" routerLinkActive="'active'">
+              <span>Helping Fellow Veterans</span>
+            </a>
+          </li>
+          <li>
+            <a>Contact Colonel K9 Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</html>
